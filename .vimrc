@@ -1,4 +1,4 @@
-execute pathogen#infect()
+"execute pathogen#infect()
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -39,4 +39,5 @@ set hls
 nmap <F9> :w<cr>
 " exit with F10
 nmap <F10> <esc>:q<cr>
-
+"Exit without save
+nmap <F8> <esc>:q!<cr>
